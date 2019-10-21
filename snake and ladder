@@ -1,0 +1,257 @@
+#include <iostream>
+#include<stdio.h>
+#include<string>
+#include<stdlib.h>
+#include<conio.h>
+#include<time.h>
+using namespace std;
+class game
+{
+    public:
+        void game1();
+        void playgame();
+        void showstatus(int*,int*);
+        void drawline(char);
+        string changeplayer(string,string,string);
+        void result(int ,int,string);
+    private:
+        string player1;
+        string player2;
+        string currentplayer;
+        string password="shivam123";
+        int position1=0;
+        int position2=0;
+        int lastposition;
+};
+int main()
+{
+    system("color 4B");
+    game go;
+    go.game1();
+  return 0;
+}
+void game::game1()
+{
+    string pass;
+cout << "\n\n\n\n\n\n\n\t\t  Enter password to unlock this game\n\t\t  \t\t??Think" <<endl;
+cout << "\t\t  ";
+cin >>pass;
+    if(pass==password)
+    {
+        system("cls");
+          cout << "  =========================================================" <<endl<<endl;
+      cout<<"\t\t    SANKES AND LADDERS GAME" <<endl <<endl;
+      cout << "  =========================================================" <<endl<<endl;
+      cout << endl<<endl<<endl;
+      cout << "\t\t  Enter player 1 name : " ;
+      cin>>player1;
+      cout << "\n\n\t\t  Enter player 2 name : ";
+      cin>>player2;
+      system("cls");
+       currentplayer=player1;
+      playgame();
+    }
+    else
+    {
+        cout << "\t\t  Wrong password!!!\n\t\t  Enter again";
+        game1();
+    }
+
+}
+void game::playgame()
+{
+    int dice;
+    srand(time(0));
+        cout << currentplayer << " it's your turn,roll your dice i.e" <<endl;
+       system("pause");
+        dice=(rand()%6)+1;
+
+
+        system("cls");
+        cout << "\n\nyou got " << dice <<" "<<currentplayer <<endl<<endl;
+        if(currentplayer==player1)
+        {
+            position1=position1+dice;
+            lastposition=position1;
+            switch(position1)
+            {
+                case 1:position1=48;
+                break;
+                case 4:position1=14;
+                break;
+                case 9:position1=31;
+                break;
+                case 16:position1=6;
+                break;
+                case 21:position1=42;
+                break;
+                case 28:position1=84;
+                break;
+                case 36:position1=44;
+                break;
+                case 47:position1=26;
+                break;
+                case 49:position1=11;
+                break;
+                case 51:position1=67;
+                break;
+                case 56:position1=53;
+                break;
+                case 62:position1=19;
+                break;
+                case 64:position1=60;
+                break;
+                case 71:position1=91;
+                break;
+                case 80:position1=99;
+                break;
+                case 87:position1=24;
+                break;
+                case 93:position1=73;
+                break;
+                case 95:position1=75;
+                break;
+                case 98:position1=78;
+                break;
+            }
+            if(position1>=94)
+        {
+            result(position1,dice,currentplayer);
+        }
+            if(position1>lastposition+6)
+                cout << "\n WOW!!!You got a ladder,climb up " <<currentplayer<<endl;
+            else if(position1<lastposition)
+                cout << "\n BAD LUCK!!!Snake bite,go down " <<currentplayer<<endl;
+        }
+            else if(currentplayer==player2)
+            {
+                position2=position2+dice;
+                lastposition=position2;
+                switch(position2)
+            {
+                case 1:position2=48;
+                break;
+                case 4:position2=14;
+                break;
+                case 9:position2=31;
+                break;
+                case 16:position2=6;
+                break;
+                case 21:position2=42;
+                break;
+                case 28:position2=84;
+                break;
+                case 36:position2=44;
+                break;
+                case 47:position2=26;
+                break;
+                case 49:position2=11;
+                break;
+                case 51:position2=67;
+                break;
+                case 56:position2=53;
+                break;
+                case 62:position2=19;
+                break;
+                case 64:position2=60;
+                break;
+                case 71:position2=91;
+                break;
+                case 80:position2=99;
+                break;
+                case 87:position2=24;
+                break;
+                case 93:position2=73;
+                break;
+                case 95:position2=75;
+                break;
+                case 98:position2=78;
+                break;
+              }
+               if(position2>=94)
+        {
+            result(position2,dice,currentplayer);
+        }
+              if(position2>lastposition+6)
+                cout << "\n WOW!!!You got a ladder,climb up " <<currentplayer<<endl;
+            else if(position2<lastposition)
+                cout << "\n BAD LUCK!!!Snake bite,go down " <<currentplayer<<endl;
+            }
+        currentplayer=changeplayer(player1,player2,currentplayer);
+        showstatus(&position1,&position2);
+}
+string game::changeplayer(string player1,string player2,string currentplayer)
+{
+    if(currentplayer==player1)
+        return player2;
+    else if(currentplayer==player2)
+        return player1;
+        return "abc";
+}
+void game::showstatus(int *position1,int *position2)
+{
+    drawline('=');
+    cout << "  \tladders" <<endl;
+    drawline('=');
+    cout << "\t  From 1--48" <<endl;
+    cout << "\t  From 4--14" <<endl;
+    cout << "\t  From 9--31" <<endl;
+    cout << "\t  From 21--42" <<endl;
+    cout << "\t  From 28--84" <<endl;
+    cout << "\t  From 36--44" <<endl;
+    cout << "\t  From 51--67" <<endl;
+    cout << "\t  From 71--91" <<endl;
+    cout << "\t  From 80--99" <<endl<<endl;
+    drawline('=');
+    cout << "   \tsnakes" <<endl;
+    drawline('=');
+    cout << "\t  From 16--6" <<endl;
+    cout << "\t  From 47--26" <<endl;
+    cout << "\t  From 49--11" <<endl;
+    cout << "\t  From 56--53" <<endl;
+    cout << "\t  From 62--19" <<endl;
+    cout << "\t  From 64--60" <<endl;
+    cout << "\t  From 87--24" <<endl;
+    cout << "\t  From 93--73" <<endl;
+    cout << "\t  From 95--75" <<endl;
+    cout << "\t  From 98--78" <<endl<<endl;
+    drawline('-');
+    cout << "\nPosition of " << player1 << " is " <<*position1 <<endl;
+    cout << "\nPosition of " << player2 << " is " <<*position2 <<endl;
+    drawline('=');
+    playgame();
+}
+void game::result(int position,int dice,string currentplayer)
+{
+    if((position+dice)==100)
+    {
+        system("cls");
+        cout << "\n\n\n\n\n\n\t\t\t\t\t\t  ";
+        cout << currentplayer << " has won the match!!!CONGRATULATION " <<endl;
+        exit(0);
+    }
+    else if((position+dice)>100)
+    {
+        if(currentplayer==player1)
+            {
+                position1=position1-dice;
+                playgame();
+            }
+        else if(currentplayer==player2)
+            {
+                position2=position2-dice;
+                playgame();
+            }
+    }
+    else
+        playgame();
+}
+void game::drawline(char ch)
+{
+    for(int i=1;i<=30;i++)
+    {
+        cout << ch;
+    }
+    cout <<endl;
+}
+
