@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="..//website/css/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-sm">
+                <!-- Brand/logo -->
+                <i class="fab fa-stripe-s fa-2x px-2 py-2"></i>
+                <a class="navbar-brand brand" href="#">Home</a>
+
+                <!-- Links -->
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Incentives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My life</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a href="#" class="nav-link">My academics</a>
+                            <div class="dropdown-content">
+                                <a href="#" class="nav-link">My college</a>
+                                <a href="#" class="nav-link">My school</a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </nav>
+            <!-- <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Price</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a class="nav-link" href="#">Pages</a>
+                            <div class="dropdown-content">
+                                <a href="#">Generic</a>
+                                <a href="#">Element</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul> -->
+        </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h6>AUTHOR:SHIVAM</h6>
+                    <h1>Exicting Adventure</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam molestiae aut illum velit quia
+                        eligendi necessitatibus quas ullam officiis excepturi?</p>
+                    <button class="btn btn-light px-5 py-2">Buy me @Priceless</button>
+                </div>
+                <div class="col-md-5 col-sm-12 h-25">
+                    <img src="../website/assets/goku.jpg" class="img-fluid" alt="BOOKS">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--section -1-->
+        <section class="section-1" id="sec-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pray">
+                            <img src="..//website/assets/adventure.jpg" alt="Pray">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1>Mr. Shivam</h1>
+                            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tempora
+                                ex repellat
+                                autem dolorum adipisci hic asperiores rerum tempore cumque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum amet illo sed dignissimos
+                                sapiente veritatis voluptate nemo facilis. Similique saepe eligendi enim laudantium non
+                                inventore quaerat consectetur nisi officiis impedit!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section 2-->
+        <section class="section-2 container-fluid p-0">
+            <div class="cover">
+                <div class="content text-center">
+                    <h1>Some features that made me unique</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, fugiat!</p>
+                </div>
+            </div>
+            <div class="container-fluid text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <h1 id="num">2345</h1>
+                        <p>My Fans</p>
+                    </div>
+                    <div class="rect">
+                        <h1 id="num1">6784</h1>
+                        <p>My Girlfriends</p>
+                    </div>
+                    <div class="rect">
+                        <h1 id="num2">1056</h1>
+                        <p>My Followers</p>
+                    </div>
+                    <div class="rect">
+                        <h1 id="num3">8963</h1>
+                        <p>My Apprentices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="purchase text-center">
+                <h1>Purchase whatever you want</h1>
+                <p>A good store at great deals and exciting prizes...!!!</p>
+                <div class="cards">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>MY AUTOGRAPH</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p>You can't afford me</p>
+                                    <h1>@ $46.89</h1>
+                                </div>
+                                <div class="card-footer"><button class="btn btn-dark px-5 py-2 mb-5">Purchase
+                                        Now</button></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>MY PICTURE</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p>You can't afford me</p>
+                                    <h1>@ $58.23</h1>
+                                </div>
+                                <div class="card-footer"><button class="btn btn-dark px-5 py-2 mb-5">Purchase
+                                        Now</button></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>SELFIE WITH ME</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p>You can't afford me</p>
+                                    <h1>@ $98.99</h1>
+                                </div>
+                                <div class="card-footer"><button class="btn btn-dark px-5 py-2 mb-5">Purchase
+                                        Now</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section 3-->
+        <section class="section-3 container-fluid p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Download my app for all devixes</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eligendi fugiat odit atque at. Ullam
+                        dolore similique quasi mollitia minus sint. Rerum saepe ipsum delectus hic facilis dolorem
+                        quisquam odio dolores facere atque laboriosam aut, laudantium doloribus itaque tempore
+                        distinctio.</p>
+                </div>
+
+            </div>
+            <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-0 m-0">Dekstop</h3>
+                                <p class="p-0 m-0">For all dekstop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-left">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-0 m-0">On mobile</h3>
+                                <p class="p-0 m-0">On play-store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section-4-->
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">What others say about me</h1>
+                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="team row">
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="..//website/assets/cat.jpg" alt="cat"
+                                class="img-fluid rounded-circle w-30 p-4 border-radius">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Cat-Man</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+                                    harum alias quas, ex impedit earum illum facilis adipisci provident eaque sit,
+                                    dignissimos repellendus aliquid necessitatibus vero. Maiores officia recusandae
+                                    aspernatur cum est error minus! Cum quidem enim odit voluptate quaerat tenetur atque
+                                    non
+                                    maxime illum explicabo molestiae, quasi aperiam cumque.</p>
+                                <a href="#sec-1" class="card-link">Go somewhere</a>
+                                <p class="text-black-50">CEO at Nowhere</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <!--carousel item-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="..//website/assets/lion.jpg" alt="lion"
+                                            class="img-fluid rounded-circle w-30 p-4 border-radius">
+                                    </div>
+                                    <!--carousel 1-->
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h2>Lion-King</h2>
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+                                                harum alias quas, ex impedit earum illum facilis adipisci provident
+                                                eaque sit,
+                                                dignissimos repellendus aliquid necessitatibus vero. Maiores officia
+                                                recusandae
+                                                aspernatur cum est error minus! Cum quidem enim odit voluptate quaerat
+                                                tenetur atque
+                                                non
+                                                maxime illum explicabo molestiae, quasi aperiam cumque.</p>
+                                            <a href="#sec-1" class="card-link">Go somewhere</a>
+                                            <p class="text-black-50">CEO at Jungle</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--carousel item 2-->
+                            <!--card 3-->
+                            <div class="carousel-item">
+                                <div class="card mr-2 d-inline-block shadow-lg">
+                                    <div class="card-img-top">
+                                        <img src="..//website/assets/joker 2.jpg" alt="Joker"
+                                            class="img-fluid rounded-circle w-30 p-4 border-radius">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h2>Joker</h2>
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+                                                harum alias quas, ex impedit earum illum facilis adipisci provident
+                                                eaque sit,
+                                                dignissimos repellendus aliquid necessitatibus vero. Maiores officia
+                                                recusandae
+                                                aspernatur cum est error minus! Cum quidem enim odit voluptate quaerat
+                                                tenetur atque
+                                                non
+                                                maxime illum explicabo molestiae, quasi aperiam cumque.</p>
+                                            <a href="#sec-1" class="card-link">Go Nowhere</a>
+                                            <p class="text-black-50">CEO at Gotham</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--card 4-->
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="..//website/assets/pain image.jpg" alt="cat"
+                                class="img-fluid rounded-circle w-30 p-4 border-radius">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Six paths of PAIN</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+                                    harum alias quas, ex impedit earum illum facilis adipisci provident eaque sit,
+                                    dignissimos repellendus aliquid necessitatibus vero. Maiores officia recusandae
+                                    aspernatur cum est error minus! Cum quidem enim odit voluptate quaerat tenetur atque
+                                    non
+                                    maxime illum explicabo molestiae, quasi aperiam cumque.</p>
+                                <a href="#sec-1" class="card-link">Go somewhere</a>
+                                <p class="text-black-50">Founder of AKATSUKI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-5">
+                    <h2 class="text-light">About us</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, obcaecati
+                        dolor laudantium
+                        laboriosam culpa dolores </p>
+                    <p class="text-muted">Copyright © 2019 <span>Shivam</span> Inc. All rights reserved.</p>
+                </div>
+                <div class="col-md-5 col-sm-5">
+                    <h2 class="text-light">NewsLetter</h2>
+                    <p class="text-muted">
+                        Stay Updated
+                    </p>
+                    <form action="/" class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow us</h4>
+                    <p class="text-muted">Let's be social</p>
+                    <div class="column">
+                        <i class="fab fa-facebook mr-1"></i>
+                        <i class="fab fa-instagram mr-1"></i>
+                        <i class="fab fa-twitter mr-1"></i>
+                        <i class="fab fa-youtube mr-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var p, q, r, s;
+        p = document.getElementsByid("num1");
+        q = document.getElementsByid("num2");
+        r = document.getElementsByid("num3");
+        s = document.getElementsByid("num");
+        while ((p && q && r && s) < 10000) {
+            setInterval(inc, 100);
+            setInterval(inc, 100);
+            setInterval(inc, 100);
+            setInterval(inc, 100);
+        }
+        function inc() {
+            p = p + 1;
+            q = q + 1;
+            r = r + 1;
+            s = s + 1;
+            document.getElementsByid("num1").innerHTML = p;
+            document.getElementsByid("num2").innerHTML = q;
+            document.getElementsByid("num3").innerHTML = r;
+            document.getElementsByid("num").innerHTML = s;
+        }
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
